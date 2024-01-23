@@ -1,0 +1,68 @@
+body{
+    background-color: lightgrey;
+}
+
+.heading{
+
+    width: 400px;
+    position: relative;
+    top:212px;
+    left: 200px;
+}
+
+.heading h1{
+    color: rgb(27, 27, 182);
+    font-size: 60px;
+}
+.heading h4{
+    position: relative;
+    bottom: 42px ;
+    font-size: 20px;
+}
+
+.form{
+    border: 2px solid black;
+    position: relative;
+    left: 650px;
+    height: 330px;
+    width: 340px;
+    display: flex;
+    align-items: start;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.form input{
+    width: 300px;
+    margin: 5px 18px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.form input:focus{
+    border: none;
+    outline: none;
+}
+
+.form p a{
+    position: relative;
+    left: 122px;
+}
+
+.form #button{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.form #button2{
+    background-color: rgb(3, 182, 18);
+    color: white;
+    border-radius: 4px;
+    width: 200px;
+    position: relative;
+    left: 50px;
+}
